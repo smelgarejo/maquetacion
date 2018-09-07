@@ -1,0 +1,56 @@
+p {
+font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+font-weight: 300;
+}
+
+h2 {
+font-size:4rem;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-style: italic;
+color: #ffffff;
+}
+
+h3 {
+font-size:1rem;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+}
+
+.bloque-principal {
+background: url('../img/post-image.jpg') center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 100vh;
+}
+
+.bloque-principal__icono {
+position:relative; 
+color:white; 
+top:110px;
+
+}
+.btn.btn-circle {
+    border-radius: 1.875rem;
+}
+
+.icono {
+border-radius: 50%;
+width: 30px;
+height: 30px;
+text-align: center;
+display: inline-block;
+}
+
+.icono--borde{
+border: 1px #000000;
+}
+
+.icono__fondo{
+background-color:black;
+color:white;
+}
+
